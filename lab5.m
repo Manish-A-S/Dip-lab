@@ -93,3 +93,7 @@ axes(handles.axes2);
 imshow(hist_equi_img);
 axes(handles.axes4);
 imhist(hist_equi_img);
+
+bin_img=imbinarize(hist_equi_img)
+axes(handles.axes5);
+imshow(bin_img);
